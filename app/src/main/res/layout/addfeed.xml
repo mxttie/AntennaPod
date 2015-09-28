@@ -77,6 +77,39 @@
             android:text="@string/confirm_label"/>
 
         <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="16dp"
+            android:background="?android:attr/listDivider"/>
+
+        <TextView
+            android:id="@+id/txtvFeeddir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider3"
+            style="@style/AntennaPod.TextView.Heading"
+            android:text="@string/txtvfeeddir_label"/>
+
+        <EditText
+            android:id="@+id/etxtFeeddir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="@string/etxtFeedurlHint"
+            android:inputType="textUri"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:cursorVisible="true"/>
+
+        <Button
+            android:id="@+id/butDirConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/confirm_label"/>
+
+        <View
             android:id="@+id/divider2"
             android:layout_width="match_parent"
             android:layout_height="1dp"

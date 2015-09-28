@@ -42,6 +42,7 @@ public class AddFeedFragment extends Fragment {
         Button butBrowserGpoddernet = (Button) root.findViewById(R.id.butBrowseGpoddernet);
         Button butOpmlImport = (Button) root.findViewById(R.id.butOpmlImport);
         Button butConfirm = (Button) root.findViewById(R.id.butConfirm);
+        Button butConfirmDir = (Button) root.findViewById(R.id.butDirConfirm);
         Button butSearchITunes = (Button) root.findViewById(R.id.butSearchItunes);
 
         final MainActivity activity = (MainActivity) getActivity();
@@ -79,6 +80,12 @@ public class AddFeedFragment extends Fragment {
             }
         });
 
+        butConfirmDir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
         return root;
     }
 }
